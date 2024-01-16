@@ -20,7 +20,7 @@
     "commands": [
       {
         "command": "extension.hiddenenv",
-        "title": "Hide Environment Variables in .env"
+        "title": "hide variable"
       }
     ]
   },
