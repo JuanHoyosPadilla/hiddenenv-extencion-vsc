@@ -11,7 +11,7 @@ Esta extensión para Visual Studio Code te permite ocultar las variables de ento
 ## Uso
 
 1. Abre tu proyecto en Visual Studio Code.
-2. Ejecuta el comando "HiddenEnv: Ocultar Variables de Entorno" desde el menú de comandos o la paleta de comandos.
+2. Ejecuta el comando "Hide Environment Variables in .env" desde el menú de comandos o la paleta de comandos.
 3. Las variables de entorno en tu archivo `.env` serán ocultadas.
 
 
