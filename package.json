@@ -3,6 +3,11 @@
   "displayName": "hiddenenv",
   "description": "",
   "version": "0.0.1",
+  "publisher": "JuanHoyosPadilla",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JuanHoyosPadilla/hiddenenv-extencion-vsc"
+  },
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -37,5 +42,6 @@
     "typescript": "^5.3.3",
     "@vscode/test-cli": "^0.0.4",
     "@vscode/test-electron": "^2.3.8"
-  }
+  },
+  "license":"LICENSE.txt"
 }

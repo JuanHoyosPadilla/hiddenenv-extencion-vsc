@@ -1,71 +1,29 @@
-# hiddenenv README
+# HiddenEnv Extension
 
-This is the README for your extension "hiddenenv". After writing up a brief description, we recommend including the following sections.
+Esta extensión para Visual Studio Code te permite ocultar las variables de entorno en tu archivo `.env` antes de compartir el código fuente.
 
-## Features
+## Instalación
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+1. Abre Visual Studio Code.
+2. Ve a la pestaña de "Extensiones" (Ctrl + Shift + X).
+3. Busca "HiddenEnv" y haz clic en "Instalar".
 
-For example if there is an image subfolder under your extension project workspace:
+## Uso
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Abre tu proyecto en Visual Studio Code.
+2. Ejecuta el comando "HiddenEnv: Ocultar Variables de Entorno" desde el menú de comandos o la paleta de comandos.
+3. Las variables de entorno en tu archivo `.env` serán ocultadas.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
 
-## Requirements
+## Notas
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+- Asegúrate de haber guardado tus cambios en el archivo `.env` antes de ejecutar la extensión.
+- La extensión sobrescribe el archivo `.env` directamente, asegúrate de tener una copia de seguridad si es necesario.
 
-## Extension Settings
+## Problemas y Contribuciones
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+Si encuentras algún problema o deseas contribuir a esta extensión, por favor [informa en GitHub](https://github.com/JuanHoyosPadilla/hiddenenv-extencion-vsc).
 
-For example:
+## Licencia
 
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Esta extensión está bajo la Licencia [MIT](LICENSE).
