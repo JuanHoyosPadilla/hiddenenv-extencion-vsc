@@ -14,6 +14,10 @@ Esta extensión para Visual Studio Code te permite ocultar las variables de ento
 2. Ejecuta el comando "hide variable" desde el menú de comandos o la paleta de comandos.
 3. Las variables de entorno en tu archivo `.env` serán ocultadas.
 
+# COMANDO DE USO
+
+## hide variable
+
 
 ## Notas
 
